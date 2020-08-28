@@ -1,0 +1,44 @@
+@import "../style/variables";
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.app-intro-text {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  line-height: 1.8rem;
+  text-align: center;
+  font-weight: 300;
+
+  span {
+    color: $primary;
+    font-weight: normal;
+    display: inline-block;
+    margin: 12px 0;
+  }
+}
+
+.app-download-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.app-download-input {
+  font-size: 17px;
+}
+
+.app-download-label {
+  font-size: 17px;
+}
+
+.app-download-button {
+  margin-top: 20px;
+}
