@@ -14,6 +14,6 @@ export class AppComponent {
   }
 
   triggerDownload = () => {
-    console.log(this.password)
+    window.open('/file?password=' + this.password, '_blank')
   }
 }
