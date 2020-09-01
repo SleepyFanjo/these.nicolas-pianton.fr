@@ -7,7 +7,7 @@
     </span>
     <br />
     Merci de saisir, ci-dessous, le mot de passe fourni lors de la présentation
-    puis de cliquer sur le bouton "Télécharger"
+    puis cliquer sur le bouton "Télécharger"
   </div>
   <div class="app-download-container">
     <mat-form-field>
@@ -17,6 +17,9 @@
         #message
         maxlength="256"
         placeholder="Mot de passe"
+        autocorrect="off"
+        autocomplete="off"
+        autocapitalize="none"
         class="app-download-input"
         [value]="password"
         (input)="updatePassword($event)"
@@ -39,6 +42,6 @@
   </div>
   <div class="app-contact-me">
     Contactez-moi :
-    <a href="mailto:nicolas.pianton@gmail.com">nicolas.pianton@gmail.com</a>
+    <a href="mailto:nicopia2@orange.fr">nicopia2@orange.fr</a>
   </div>
 </div>
